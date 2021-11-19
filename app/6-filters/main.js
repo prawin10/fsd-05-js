@@ -13,7 +13,6 @@ function printme(cardTitle) {
   cardTitle.addEventListener('click', function () {
 
     hidecard();
-
     currentElement = this;
     //2: findclass name for this element
     className = currentElement.classList[1];
